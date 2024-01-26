@@ -1,12 +1,22 @@
 <template>
     <div>
-        <button class="btn btn-green">
-<NuxtLink   :to="`/${Number(id)+Number(1)}`">Next</NuxtLink>
-</button>
+        
 
-    <button class="btn btn-red">
-<NuxtLink :to="`/${Number(id)-Number(1)}`">Prev</NuxtLink>
-    </button>
+    </div>
+
+    <div>
+        <container>
+
+            <button class="btn btn-red ct">
+                <NuxtLink :to="`/${Number(id) - Number(1)}`">Prev</NuxtLink>
+            </button>
+
+
+        <button class="btn btn-green ct">
+            <NuxtLink   :to="`/${Number(id)+Number(1)}`">Next</NuxtLink>
+        </button>
+        
+        </container>
     </div>
 </template>
 
@@ -19,5 +29,12 @@ definePageMeta({
 </script>
 
 <style lang="scss" scoped>
+.ct{
+ 
+display:inline-block;
+margin-left: auto;
+margin-right: 50px;
+ 
+}
 
 </style>

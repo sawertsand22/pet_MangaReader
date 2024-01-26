@@ -1,12 +1,14 @@
 <template>
     <div>
         <header>
+            <button class="btn">
             <NuxtLink to="/">Back</NuxtLink>
+            </button>
         </header>
     </div>
-    <div>
+    
         <slot/>
-    </div>
+    
 </template>
 
 <script setup>
