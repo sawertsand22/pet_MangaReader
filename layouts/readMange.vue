@@ -1,7 +1,7 @@
 <template>
     <div>
         <header>
-            <button class="btn">
+            <button class="btn btn-back">
             <NuxtLink to="/">Back</NuxtLink>
             </button>
         </header>
@@ -16,5 +16,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+div{
+    background-color: black;
+}
 </style>

@@ -1,11 +1,11 @@
 <template>
     <div>
             <header>
-                <button class="btn">
+                <button class="btn btn-back">
                 <NuxtLink to="/">Back</NuxtLink>
                 </button>
             </header>
-            <img scr="/img/1.png" alt=""/>
+            
     </div>
     
             <slot/>
